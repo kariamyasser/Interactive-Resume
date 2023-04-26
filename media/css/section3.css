@@ -1,0 +1,222 @@
+.section3-planet1 {
+    top: 15%;
+    left: 1%;
+    height: 10%;
+}
+
+.section3-planet2 {
+    top: 29%;
+    left: 2.7%;
+    height: 6%;
+}
+.section3-planet3 {
+    top: 3%;
+    left: 28%;
+}
+.section3-planet4 {
+    top: 70%;
+    left: 60%;
+}
+
+.section3-stack-img{
+    height: 5%;
+    width: 5%;
+    padding-right: 3%;
+    padding-top: 1%;
+}
+
+.section3-stack-item-holder{
+    display: flex;
+}
+
+
+
+
+
+
+
+.section3-siemens {
+    position: absolute;
+    top: 33%;
+    left: 3%;
+}
+.section3-siemens-title {
+    font-family: S13;
+    font-size: 3em;
+    background-clip: text;
+    background: -webkit-linear-gradient(#ae1d0d, #f5af19);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    top: -22%;
+    left: 0%;
+    position: absolute;
+
+}
+.section3-siemens-date-location{
+    font-family: S13;
+    font-size: 1.4em;
+    text-align: left;
+}
+.section3-siemens-list-title{
+    font-family: S13;
+    font-size: 1.4em;
+    text-align: left;
+}
+
+.section3-siemens-list{
+    font-family: S1;
+    font-size: 1em;
+    text-align: left;
+}
+
+
+
+
+
+
+
+
+.section3-freelance {
+    position: absolute;
+    top: 35%;
+    left: 40%;
+}
+
+
+.section3-freelance-title {
+    font-family: S13;
+    font-size: 3em;
+    background-clip: text;
+    background: -webkit-linear-gradient(#ae1d0d, #f5af19);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    top: -25%;
+    left: 0%;
+    position: absolute;
+
+}
+.section3-freelance-title2 {
+    font-family: S13;
+    font-size: 3em;
+    top: -15%;
+    left: 0%;
+}
+
+.section3-freelance-date-location{
+    font-family: S13;
+    font-size: 1.4em;
+    text-align: left;
+}
+.section3-freelance-list-title{
+    font-family: S13;
+    font-size: 1.4em;
+    text-align: left;
+}
+
+.section3-freelance-list{
+    font-family: S1;
+    font-size: 1em;
+    text-align: left;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+.section3-itsc {
+    position: absolute;
+    top: 20%;
+    left: 80%;
+}
+
+
+.section3-itsc-title {
+    font-family: S13;
+    font-size: 3em;
+    background-clip: text;
+    background: -webkit-linear-gradient(#ae1d0d, #f5af19);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    top: -31%;
+    left: 0%;
+    position: absolute;
+
+}
+.section3-itsc-title2 {
+    font-family: S13;
+    font-size: 3em;
+    top: -18%;
+    left: 0%;
+}
+
+.section3-itsc-date-location{
+    font-family: S13;
+    font-size: 1.4em;
+    text-align: left;
+}
+.section3-itsc-list-title{
+    font-family: S13;
+    font-size: 1.4em;
+    text-align: left;
+}
+
+.section3-itsc-list{
+    font-family: S1;
+    font-size: 1em;
+    text-align: left;
+}
+
+
+
+
+
+
+
+.section3-iram {
+    position: absolute;
+    top: 75%;
+    left: 80%;
+}
+
+
+.section3-iram-title {
+    font-family: S13;
+    font-size: 3em;
+    background-clip: text;
+    background: -webkit-linear-gradient(#ae1d0d, #f5af19);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    top: -72%;
+    left: 0%;
+    position: absolute;
+}
+.section3-iram-title2 {
+    font-family: S13;
+    font-size: 3em;
+    top: -42%;
+    left: 0%;
+}
+
+.section3-iram-date-location{
+    font-family: S13;
+    font-size: 1.4em;
+    text-align: left;
+}
+.section3-iram-list-title{
+    font-family: S13;
+    font-size: 1.4em;
+    text-align: left;
+}
+
+.section3-iram-list{
+    font-family: S1;
+    font-size: 1em;
+    text-align: left;
+}

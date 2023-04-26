@@ -1,0 +1,77 @@
+.section6-planet1 {
+    top: 15%;
+    left: 15%;
+    height: 25%;
+}
+
+.section6-planet2 {
+    top: 50%;
+    left: 40%;
+}
+
+.section6-planet3 {
+    top: 77%;
+    left: 75%;
+
+}
+
+.section6-planet3 {
+    top: 20%;
+    left: 3%;
+    height: 15%;
+}
+
+.section6-planet4 {
+    top: 5%;
+    left: 85%;
+}
+
+
+.section6-interests-list{
+
+
+    position: absolute;
+    top: 62%;
+    left: 22%;
+    transform: translate(-50%, -50%);
+    font-family: S1;
+    font-size: 1.5em;
+    text-align: left;
+}
+
+.section6-interests-list i {
+    background-clip: text;
+    background: -webkit-linear-gradient(#ae1d0d, #f5af19);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+
+
+.section6-languages-list{
+    position: absolute;
+    top: 62%;
+    left: 72%;
+    transform: translate(-50%, -50%);
+    font-family: S1;
+    font-size: 1.5em;
+    text-align: left;
+}
+
+
+/* .section6-languages-list-item{
+    display: flex;
+} */
+
+ .section6-languages-list-item h2{
+    font-family: 'S13';
+    font-size: 2em;
+        background-clip: text;
+    background: -webkit-linear-gradient(#ae1d0d, #f5af19);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.section6-languages-list-item h3{
+    margin-left: 10%;
+}

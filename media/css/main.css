@@ -1,0 +1,112 @@
+/* First block Hide scrollbar for Chrome, Safari and Opera */
+/* Second block Hide scrollbar for IE, Edge and Firefox */
+body::-webkit-scrollbar {
+  display: none;
+}
+
+
+
+body {
+  overflow-x: scroll;
+  overflow-y: hidden;
+  white-space: nowrap;
+  background-size: cover;
+  background-image: url('../../media/sky/6.jpg');
+  background-repeat: repeat;
+  margin: 0;
+  padding: 0;
+
+  -ms-overflow-style: none;  
+  scrollbar-width: none; 
+}
+
+section {
+  display: inline-block;
+  width: 100vw;
+  height: 100vh;
+  text-align: center;
+  color: white;
+  position: relative;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  vertical-align: top;
+}
+
+#space-ship {
+  position: absolute;
+  height: 10%;
+  top: 45%;
+  left: 5%;
+  z-index: 1000;
+  transform: rotate(90deg);
+}
+
+h1 {
+  position: absolute;
+  top: 30%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  margin: 0;
+  padding: 0;
+  font-size: 4rem;
+}
+
+h1.welcome-title {
+  font-family: S3;
+  font-size: 6em;
+}
+
+h1.page-title {
+  font-family: S3;
+  font-size: 3em;
+}
+
+h1.page-title-semi1 {
+  left: 20%;
+  font-family: S3;
+  font-size: 3em;
+}
+
+h1.page-title-semi2 {
+  left: 70%;
+  font-family: S3;
+  font-size: 3em;
+}
+
+.planet {
+  position: absolute;
+  height: 20%;
+}
+
+
+li {
+  margin-bottom: 2%;
+}
+
+.audio-player-container{
+  z-index: 1000;
+  display: flex;
+  top: 90%;
+  left: 65%;
+}
+
+.audio-player-text{
+  font-family: S1;
+  font-size: 1.5em;
+  color: white;
+  margin-right: 5% !important;
+  margin-top: 2% !important;
+  height: fit-content;
+  margin: 0;
+}
+#audio-player-button{
+  background-color: transparent;
+  border: 0;
+  height: fit-content;
+}
+
+.audio-player-container i{
+  color: white;
+  font-size: 3em;
+}

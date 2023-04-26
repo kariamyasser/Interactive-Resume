@@ -1,0 +1,418 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <link rel="stylesheet" href="media/css/font-awesome-4.7.0/font-awesome-4.7.0/css/font-awesome.min.css">
+  <link rel="stylesheet" href="media/css/fonts.css">
+  <link rel="stylesheet" href="media/css/main.css">
+  <link rel="stylesheet" href="media/css/section1.css">
+  <link rel="stylesheet" href="media/css/section2.css">
+  <link rel="stylesheet" href="media/css/section3.css">
+  <link rel="stylesheet" href="media/css/section4.css">
+  <link rel="stylesheet" href="media/css/section5.css">
+  <link rel="stylesheet" href="media/css/section6.css">
+  <link rel="icon" href="./media/ky.png" type="image/icon type">
+  <title>Karim Yasser</title>
+
+
+</head>
+
+<body>
+  <audio id="player" loop>
+    <source src="./media/audio/Cornfield-chase-interstellar.mp3" type="audio/mpeg">
+  </audio>
+
+
+
+  <img id="space-ship" src="media/ship/giphy.gif">
+  <script>
+    // Get the spaceShip element
+    const spaceShip = document.getElementById("space-ship");
+    if (spaceShip) {
+      // Set the initial position
+      let x = 5;
+      let y = 45;
+      spaceShip.style.left = `${x}%`;
+      spaceShip.style.top = `${y}%`;
+      // Listen for key events
+      document.addEventListener("keydown", (event) => {
+        // Move up on up arrow key
+        if (event.keyCode === 38) {
+          y -= 2;
+          y = y < 10 ? 10 : y;
+        }
+        // Move down on down arrow key
+        if (event.keyCode === 40) {
+          y += 2;
+          y = y > 85 ? 85 : y;
+        }
+        // Move left on left arrow key
+        if (event.keyCode === 37) {
+          spaceShip.style.transform = 'rotate(270deg)';
+          x -= 2;
+          x = x < 5 ? 5 : x;
+        }
+        // Move right on right arrow key
+        else if (event.keyCode === 39) {
+          spaceShip.style.transform = 'rotate(90deg)';
+          x += 2;
+          x = x > 595 ? 595 : x;
+        }
+        spaceShip.style.left = `${x}%`;
+        spaceShip.style.top = `${y}%`;
+      });
+    }
+  </script>
+
+  <section>
+    <img class="planet section1-planet1" src="media/planets/aurora.png">
+    <img class="planet section1-planet2" src="media/planets/gifs/2.gif">
+    <img class="planet section1-planet3" src="media/planets/gifs/15.gif">
+    <img class="planet section1-planet4" src="media/planets/gifs/43.gif">
+    <img class="planet section1-planet5" src="media/planets/gifs/41.gif">
+    <h1 class="welcome-title">WELCOME!</h1>
+    <h2 class="section1-welcome-instructions">Please use the arrows to navigate</h2>
+    <img class="planet section1-arrow1" src="media/arrows/giphy (7).gif">
+
+    <div class=" planet audio-player-container">
+      <h2 class="audio-player-text">For best experience play the sound</h2>
+      <button id="audio-player-button"><i class="fa fa-play"></i></button>
+    </div>
+    <script>
+      document.querySelector('button i').addEventListener('click', (e) => {
+        if (e.srcElement.className === "fa fa-play") {
+          document.querySelector('audio').play();
+          e.srcElement.className = "fa fa-pause"
+
+        } else if (e.srcElement.className === "fa fa-pause") {
+          document.querySelector('audio').pause();
+          e.srcElement.className = "fa fa-play"
+        }
+      });
+    </script>
+  </section>
+
+
+
+  <section>
+    <h1 class="page-title">Personal <br>Information</h1>
+    <div class="section2-intro-data">
+      <h2 class="section2-name">Karim Y. Ahmed</h2>
+      <h3 class="section2-title"><i class="fa fa-angle-double-left section2-paint-brush" aria-hidden="true"></i>
+        Front-End Engineer <i class="fa fa-angle-double-right section2-paint-brush" aria-hidden="true"></i></h3>
+      <p class="section2-summary">
+        A Front-End engineer always on the look for opportunities which utilizes my skills to<br>
+        the maximum, enhances my experience and tests my analytical thinking while the output<br>
+        adheres to the standards set by the company and acclaims its vision and goals.</p>
+      <img class="planet section2-planet1" src="media/planets/gifs/7.gif">
+    </div>
+    <div class="section2-contact-data">
+      <h3><i class="fa fa-envelope" aria-hidden="true"></i> <a href="mailto:karim.yasser.ahmed@gmail.com"
+          class="section2-email">karim.yasser.ahmed@gmail.com</a></h3>
+      <h3><i class="fa fa-mobile" style="font-size: 1.5em;" aria-hidden="true"></i> <a
+          class="section2-mobile">+201141913988</a></h3>
+      <h3><i class="fa fa-linkedin-square" aria-hidden="true"></i> <a class="section2-linkedin" target="_blank"
+          href="http://www.linkedin.com/in/karim-yasser-36a80119b">LinkedIn</a></h3>
+      <h3><i class="fa fa-github" aria-hidden="true"></i> <a class="section2-github" target="_blank"
+          href="http://www.github.com/kariamyasser">Github</a></h3>
+      <h3><i class="fa fa-instagram" aria-hidden="true"></i> <a class="section2-instagram" target="_blank"
+          href="https://www.instagram.com/ikvriw/">ikvriw</a></h3>
+
+
+    </div>
+    <img class="planet section2-planet2" src="media/planets/gifs/19.gif">
+    <h3 class="section2-location">Live and Work in Cairo, Egypt</h3>
+    <img class="planet section2-egypt" src="media/egypt/giphy (4).gif">
+  </section>
+
+
+  <section>
+    <h1 class="page-title" style="top:15%;">Experience</h1>
+
+    <img class="planet section3-planet3" src="media/planets/gifs/22.gif">
+    <img class="planet section3-planet4" src="media/planets/gifs/14.gif">
+
+    <!-- Siemens -->
+    <img class="planet section3-planet1" src="media/experience/giphy (7).gif">
+    <img class="planet section3-planet2" src="media/experience/pngwing.com.png">
+    <div class="section3-siemens">
+      <h2 class="section3-siemens-title">Front-End Engineer - R&D</h2>
+      <h3 class="section3-siemens-date-location">02/2020 - Present &emsp; &emsp; &emsp;Cairo, Egypt</h2>
+        <h3 class="section3-siemens-list-title">Achievements</h3>
+        <ul class="section3-siemens-list">
+          <li>Migrated VIQ Framework from Angular 2 to Angular 14<br>
+            with no functionality compromises, 0% data loss and <br>
+            critical performance enhancements</li>
+          <li>Created new features while working in 6 projects</li>
+          <li>Trained new hires and mentored interns</li>
+          <li>Wrote building scripts for bundling the front-end <br>
+            with back-end using Gradle</li>
+          <li>Worked on some UI/UX designs for new features</li>
+          <li>Created a plugin generator to easily create plugins<br>
+            of any framework such as React, Vue or Angular to work<br>
+            as a plugin in our framework</li>
+        </ul>
+        <h3 class="section3-siemens-list-title">Stack:</h3>
+        <div class="section3-siemens-list" style="margin-left: 3%;">
+          <div class="section3-stack-item-holder"> <img class="section3-stack-img" src="media/stack/giphy.gif">
+            <p>Angular</p>
+          </div>
+          <div class="section3-stack-item-holder"> <img class="section3-stack-img" src="media/stack/giphy (1).gif">
+            <p>React</p>
+          </div>
+          <div class="section3-stack-item-holder"> <img class="section3-stack-img" src="media/stack/giphy (2).gif">
+            <p>NodeJS</p>
+          </div>
+        </div>
+    </div>
+
+
+
+
+
+
+    <!-- Freelance -->
+
+    <div class="section3-freelance">
+      <h2 class="section3-freelance-title">Front-End Engineer</h2>
+      <h2 class="planet section3-freelance-title2">Freelance</h2>
+      <h3 class="section3-freelance-date-location">06/2021 - 03/2022 &emsp; &emsp; &emsp;Cairo, Egypt</h2>
+        <h3 class="section3-freelance-list-title">Achievements</h3>
+        <ul class="section3-freelance-list">
+          <li>Lead a team of 4 front-end developers to <br>
+            create an ERP system using React and Redux</li>
+          <li>Created a shared library for custom components<br>
+            to be used across the different parts of the system</li>
+          <li>Wrote building scripts for Nginx to serve the front-end side</li>
+          <li>Created documents' search engine using Angular<br>
+            for Front-end and NodeJs for Back-end</li>
+          <li>Worked on some UI/UX designs for new features</li>
+        </ul>
+        <br>
+        <br>
+
+        <h3 class="section3-freelance-list-title">Stack:</h3>
+        <div class="section3-freelance-list" style="margin-left: 3%;">
+          <div class="section3-stack-item-holder"> <img class="section3-stack-img" src="media/stack/giphy.gif">
+            <p>Angular</p>
+          </div>
+          <div class="section3-stack-item-holder"> <img class="section3-stack-img" src="media/stack/giphy (1).gif">
+            <p>React</p>
+          </div>
+          <div class="section3-stack-item-holder"> <img class="section3-stack-img" src="media/stack/giphy (2).gif">
+            <p>NodeJS</p>
+          </div>
+        </div>
+    </div>
+
+
+    <!-- itsc -->
+
+    <div class="section3-itsc">
+      <h2 class="section3-itsc-title">Full Stack Intern</h2>
+      <h2 class="planet section3-itsc-title2">ITSC - Egypt</h2>
+      <h3 class="section3-itsc-date-location">06/2021 - 03/2022 &emsp; &emsp; &emsp;Cairo, Egypt</h2>
+        <h3 class="section3-itsc-list-title">Achievements</h3>
+        <ul class="section3-itsc-list">
+          <li>Maintained the front-end for several ports<br>
+            which integrates the working cycle of Ministry<br>
+            of Tourism with Ministry of Internal Affairs</li>
+          <li>Implemented some software engineering architecture <br>
+            and design patterns.</li>
+          <li> Created APIs for back-end</li>
+        </ul>
+        <h3 class="section3-itsc-list-title">Stack:</h3>
+        <div class="section3-itsc-list" style="margin-left: 3%;">
+          <div class="section3-stack-item-holder"> <img class="section3-stack-img" src="media/stack/giphy.gif">
+            <p>Angular</p>
+          </div>
+          <div class="section3-stack-item-holder"> <img class="section3-stack-img"
+              src="media/stack/NET_Core_Logo.svg.png">
+            <p>.Net Core</p>
+          </div>
+        </div>
+    </div>
+
+
+
+    <!-- iram -->
+
+    <div class="section3-iram">
+      <h2 class="section3-iram-title">Software Engineer Intern</h2>
+      <h2 class="planet section3-iram-title2">Egypt Gold Company - IRAM</h2>
+      <h3 class="section3-iram-date-location">06/2018 - 08/2018 &emsp; &emsp; &emsp;Cairo, Egypt</h2>
+        <h3 class="section3-iram-list-title">Achievements</h3>
+        <ul class="section3-iram-list">
+          <li>Managed an ERP system using Microsoft Dynamics AX and X++</li>
+          <li>Created desktop applications using PowerBuilder</li>
+        </ul>
+    </div>
+
+
+  </section>
+
+
+  <section>
+    <h1 class="page-title">Education</h1>
+    <img class="planet section4-planet1" src="media/planets/gifs/17.gif">
+    <img class="planet section4-planet2" src="media/planets/gifs/8.gif">
+    <img class="planet section4-planet3" src="media/planets/gifs/13.gif">
+
+
+    <div class="section4-college">
+      <h2 class="section4-college-title">Bachelor of Communication and Computer Engineering</h2>
+      <h2 class="section4-college-title2">Cairo University, Faculty of Engineering-CHS</h2>
+      <h3 class="section4-college-date-location">09/2015 - 06/2020 &emsp; &emsp; &emsp;Cairo, Egypt</h2>
+        <h3 class="section4-college-gpa-title">CGPA : &emsp; 3.25</h3>
+    </div>
+  </section>
+
+
+  <section>
+    <img class="planet section5-planet1" src="media/planets/gifs/44.gif">
+    <img class="planet section5-planet2" src="media/planets/gifs/34.gif">
+    <img class="planet section5-planet3" src="media/planets/gifs/10.gif">
+
+
+    <h1 class="page-title-semi1">Skills</h1>
+    <div class="section5-honeycomb1">
+      <div class="section5-hexagon">
+        <img src="media/stack/giphy.gif" alt="Image 3">
+        <div class="section5-hexagon-text">Angular</div>
+      </div>
+      <div class="section5-hexagon">
+        <img src="media/stack/giphy (1).gif" alt="Image 1">
+        <div class="section5-hexagon-text">React</div>
+      </div>
+      <div class="section5-hexagon">
+        <img src="media/stack/giphy (2).gif" alt="Image 2">
+        <div class="section5-hexagon-text">NodeJS</div>
+      </div>
+
+      <div class="section5-hexagon">
+        <img src="media/stack/js.gif" alt="Image 1">
+        <div class="section5-hexagon-text">Javascript</div>
+      </div>
+
+      <div class="section5-hexagon">
+        <img src="media/stack/ts.png" alt="Image 3">
+        <div class="section5-hexagon-text">Typescript</div>
+      </div>
+    </div>
+    <div class="section5-honeycomb2">
+      <div class="section5-hexagon">
+        <img src="media/stack/html.gif" alt="Image 3">
+        <div class="section5-hexagon-text">HTML</div>
+      </div>
+      <div class="section5-hexagon">
+        <img src="media/stack/giphy (3).gif" alt="Image 3">
+        <div class="section5-hexagon-text">CSS</div>
+      </div>
+      <div class="section5-hexagon">
+        <img src="media/stack/flutter.png" alt="Image 3">
+        <div class="section5-hexagon-text">Flutter</div>
+      </div>
+
+      <div class="section5-hexagon">
+        <img src="media/stack/figma.png" alt="Image 1">
+        <div class="section5-hexagon-text">Figma</div>
+      </div>
+      <div class="section5-hexagon">
+        <img src="media/stack/ps.png" alt="Image 2">
+        <div class="section5-hexagon-text">Photoshop</div>
+      </div>
+      <div class="section5-hexagon">
+        <img src="media/stack/pr.png" alt="Image 3">
+        <div class="section5-hexagon-text">Premiere</div>
+      </div>
+    </div>
+    <div class="section5-honeycomb3">
+      <div class="section5-hexagon">
+        <img src="media/stack/git3.gif" alt="Image 2">
+        <div class="section5-hexagon-text">Github</div>
+      </div>
+
+      <div class="section5-hexagon">
+        <img src="media/stack/cpp.png" alt="Image 1">
+        <div class="section5-hexagon-text">C++</div>
+      </div>
+      <div class="section5-hexagon">
+        <img src="media/stack/csharp.png" alt="Image 2">
+        <div class="section5-hexagon-text">C Sharp</div>
+      </div>
+      <div class="section5-hexagon">
+        <img src="media/stack/sql.png" alt="Image 3">
+        <div class="section5-hexagon-text">SQL</div>
+      </div>
+      <div class="section5-hexagon">
+        <img src="media/stack/py.png" alt="Image 3">
+        <div class="section5-hexagon-text">Python</div>
+      </div>
+    </div>
+
+    <h1 class="page-title-semi2">Projects</h1>
+    <div class="section5-pr1">
+      <h2 class="section5-pr-title">Chat X</h2>
+      <h3 class="section5-pr-date">02/2021 - 03/2021</h2>
+        <p class="section5-pr-description">A mobile chat application using Flutter and Firebase</p>
+    </div>
+    <div class="section5-pr2">
+      <h2 class="section5-pr-title">Brother Eye</h2>
+      <h3 class="section5-pr-date">01/2020 - 06/2020</h2>
+        <p class="section5-pr-description">Network Analyzing and Monitoring tool using SNMP, ReactJs and Typescript.</p>
+    </div>
+    <div class="section5-pr3">
+      <h2 class="section5-pr-title">Arabic OCR</h2>
+      <h3 class="section5-pr-date">10/2019 - 12/2019</h2>
+        <p class="section5-pr-description">Arabic OCR Using Python</p>
+    </div>
+  </section>
+
+  <section>
+
+    <img class="planet section6-planet1" src="media/planets/gifs/24.gif">
+    <img class="planet section6-planet2" src="media/planets/gifs/28.gif">
+    <img class="planet section6-planet3" src="media/planets/gifs/23.gif">
+    <img class="planet section6-planet4" src="media/planets/gifs/36.gif">
+
+
+    <h1 class="page-title-semi1">Interests</h1>
+    <div class="section6-interests-list">
+      <h2><i class="fa fa-camera"></i> Photography</h2>
+      <h2><i class="fa fa-globe"></i> Travelling</h2>
+      <h2><i class="fa fa-book"></i> Reading</h2>
+      <h2><i class="fa fa-paint-brush"></i> Graphic Designing</h2>
+      <h2><i class="fa fa-video-camera"></i> Video Editing</h2>
+      <h2><i class="fa fa-grav"></i> Calisthenics</h2>
+    </div>
+
+    <h1 class="page-title-semi2">Languages</h1>
+    <div class="section6-languages-list">
+      <div>
+        <div class="section6-languages-list-item">
+          <h2>English</h2>
+          <h3>Native or Bilingual Proficiency</h3>
+        </div>
+
+        <div class="section6-languages-list-item">
+          <h2>Arabic</h2>
+          <h3>Native or Bilingual Proficiency</h3>
+        </div>
+
+        <div class="section6-languages-list-item">
+          <h2>French</h2>
+          <h3> Limited Working Proficiency</h3>
+        </div>
+
+        <div class="section6-languages-list-item">
+          <h2>Japanese</h2>
+          <h3> N5</h3>
+        </div>
+      </div>
+    </div>
+
+
+  </section>
+</body>
+
+</html>

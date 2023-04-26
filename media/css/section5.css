@@ -1,0 +1,122 @@
+.section5-planet1 {
+    top: 15%;
+    left: 15%;
+    height: 25%;
+}
+
+.section5-planet2 {
+    top: 50%;
+    left: 40%;
+}
+
+.section5-planet3 {
+    top: 75%;
+    left: 90%;
+    height: 15%;
+}
+
+
+
+
+
+.section5-honeycomb1 {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    position: absolute;
+    top: 50%;
+    left: 20%;
+    transform: translate(-50%, -50%);
+}
+
+.section5-honeycomb2 {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    position: absolute;
+    top: 65%;
+    left: 20%;
+    transform: translate(-50%, -50%);
+}
+
+.section5-honeycomb3 {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    position: absolute;
+    top: 80%;
+    left: 20%;
+    transform: translate(-50%, -50%);
+
+}
+
+.section5-hexagon {
+    position: relative;
+    width: 100px;
+    height: 115.47px;
+    margin: 10px;
+    background-color: #ffffff;
+    border: 1px solid #000000;
+    clip-path: polygon(50% 0, 100% 25%, 100% 75%, 50% 100%, 0 75%, 0 25%);
+}
+
+.section5-hexagon img {
+    position: absolute;
+    top: 35%;
+    left: 50%;
+    width: 45%;
+    object-fit: cover;
+    transform: translate(-50%, -50%);
+}
+
+.section5-hexagon-text {
+    position: absolute;
+    top: 70%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 100%;
+    padding: 10px;
+    text-align: center;
+    font-size: 14px;
+    color: #000000;
+    font-family: 'S1';
+}
+
+
+
+.section5-pr1{
+    position: absolute;
+    top: 42%;
+    left: 70%;
+    transform: translate(-50%, -50%);
+}
+.section5-pr2{
+    position: absolute;
+    top: 62%;
+    left: 70%;
+    transform: translate(-50%, -50%);
+
+}
+.section5-pr3{
+    position: absolute;
+    top: 82%;
+    left: 70%;
+    transform: translate(-50%, -50%);
+
+}
+.section5-pr-title{
+    font-family: S13;
+    font-size: 3em;
+    background-clip: text;
+    background: -webkit-linear-gradient(#ae1d0d, #f5af19);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+.section5-pr-date{
+    font-family: S13;
+    font-size: 2em;
+}
+.section5-pr-description{
+    font-family: S1;
+    font-size: 1em;
+}

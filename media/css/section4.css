@@ -1,0 +1,53 @@
+.section4-planet1 {
+    top: 15%;
+    left: 15%;
+    height: 25%;
+}
+
+.section4-planet2 {
+    top: 20%;
+    left: 60%;
+}
+
+.section4-planet3 {
+    top: 70%;
+    left: 80%;
+}
+
+
+
+
+
+
+.section4-college {
+    position: absolute;
+    top: 60%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+
+}
+.section4-college-title {
+    font-family: S13;
+    font-size: 3em;
+    background-clip: text;
+    background: -webkit-linear-gradient(#ae1d0d, #f5af19);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+
+}
+.section4-college-title2 {
+    font-family: S13;
+    font-size: 3em;
+
+}
+
+.section4-college-date-location{
+    font-family: S13;
+    font-size: 2em;
+    
+}
+.section4-college-gpa-title{
+    font-family: S1;
+    font-size: 2em;
+    
+}

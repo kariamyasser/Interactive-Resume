@@ -1,0 +1,75 @@
+.section1-welcome-instructions {
+    position: absolute;
+    top: 60%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    margin: 0;
+    padding: 0;
+    font-size: 5em;
+    font-family: S13;
+}
+
+.section1-arrow1 {
+    top: 70%;
+    left: 50%;
+    transform: translate(-50%, -50%)rotate(90deg);
+}
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 1200px) {
+    .section1-planet1 {
+        top: 50%;
+        left: 60%;
+    }
+
+    .section1-planet2 {
+        top: 60%;
+        left: 70%;
+        display: none;
+    }
+
+    .section1-planet3 {
+        top: 25%;
+        left: 95%;
+    }
+
+    .section1-planet4 {
+        top: 6%;
+        left: 31%;
+    }
+
+    .section1-planet5 {
+        top: 7%;
+        left: 10%;
+        height: 40%;
+    }
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 1200px) {
+    .section1-planet1 {
+        top: 50%;
+        left: 60%;
+    }
+
+    .section1-planet2 {
+        top: 2%;
+        left: 70%;
+    }
+
+    .section1-planet3 {
+        top: 25%;
+        left: 95%;
+    }
+
+    .section1-planet4 {
+        top: 5%;
+        left: 35%;
+    }
+
+    .section1-planet5 {
+        top: 0%;
+        left: 30%;
+        height: 60%;
+    }
+}
