@@ -4,7 +4,7 @@ An Interactive Resume For Karim Yasser
 Don't forget to play the music ;) 
 
 
-## Live View 
+## Live Server 
 https://kariamyasser.github.io/Interactive-Resume/
 
 - Only works on bigger screens for now
